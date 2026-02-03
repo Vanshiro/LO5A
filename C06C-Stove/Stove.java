@@ -30,7 +30,10 @@ public class Stove {
 	 **** You must write the following method ****
 	 */
 	public void displayStove() {
-
+		burners.get(0).display();
+		burners.get(1).display();
+		burners.get(2).display();
+		burners.get(3).display();
 	}
 	
 	/**

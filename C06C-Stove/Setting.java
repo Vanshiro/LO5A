@@ -8,6 +8,6 @@ public enum Setting {
     }
     @Override
     public String toString(){
-        
+        return intensity;
     }
 }
