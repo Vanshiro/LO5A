@@ -1,6 +1,13 @@
 public class Burner {
     public enum Temperature{
         COLD, WARM, HOT, BLAZING;
+
+        public Temperature next() {
+        if (this.ordinal() == values().length - 1) {
+            return this;
+        }
+        return values()[this.ordinal() + 1];
+        }
     }
 
     private Temperature myTemperature;
