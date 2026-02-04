@@ -1,3 +1,11 @@
+/**
+ * Setting Enum.
+ *
+ * @author Cole Mutter
+ * @author Van Nguyen
+ *
+ * Purpose: stores values for stove intensity
+ */
 public enum Setting {
     OFF("---"), LOW("--+"), MEDIUM("-++"),HIGH("+++");
     
