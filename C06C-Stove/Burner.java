@@ -78,10 +78,13 @@ public class Burner {
         switch(mySetting){
             case OFF:
                 System.out.println(stoveIntensity+""+".....cooool");
+                break;
             case LOW:
                 System.out.println(stoveIntensity+""+".....warm");
+                break;
             case MEDIUM:
                 System.out.println(stoveIntensity+""+".....CAREFUL");
+                break;
             case HIGH:
                 System.out.println(stoveIntensity+""+".....VERY HOT! DON'T TOUCH");
             default:
