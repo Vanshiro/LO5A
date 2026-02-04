@@ -1,3 +1,12 @@
+/**
+ * Burner Class and Temperature Enum.
+ *
+ * @author Cole Mutter
+ * @author Van Nguyen
+ *
+ * Purpose: stores values for Burner
+ */
+
 public class Burner {
     public enum Temperature{
         COLD, WARM, HOT, BLAZING;
